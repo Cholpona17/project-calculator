@@ -1,0 +1,61 @@
+.divAll {
+    width: 41%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(38, 38, 252, 0.712);
+}
+
+.cssInput {
+    background: black;
+    width: 97.4%;
+    height: 150px;
+    color: white;
+    font-size: 100px;
+    text-align: right;
+    border-radius: 20px;
+    border: solid 2px white;
+    box-shadow: 5px 5px 5px 5px rgba(38, 38, 252, 0.712);
+
+
+}
+
+.word {
+    width: 150px;
+    height: 150px;
+    background: orange;
+    color: wheat;
+    font-size: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(38, 38, 252, 0.434);
+
+}
+
+
+
+.word:nth-child(3),
+.word:nth-child(2),
+.word:nth-child(1) {
+    background: white;
+    color: black;
+}
+
+
+.word:nth-child(15),
+.word:nth-child(14),
+.word:nth-child(13),
+.word:nth-child(11),
+.word:nth-child(10),
+.word:nth-child(9),
+.word:nth-child(7),
+.word:nth-child(6),
+.word:nth-child(5) {
+    background: rgb(57, 55, 55);
+    color: white;
+}
+
+.word:hover {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
